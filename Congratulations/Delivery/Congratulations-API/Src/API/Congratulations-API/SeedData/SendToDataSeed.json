@@ -1,0 +1,17 @@
+[
+  {
+    "Id": "1",
+    "NameAr": "جميع الإدارات",
+    "NameEn": "All Departments"
+  },
+  {
+    "Id": "2",
+    "NameAr": "مجموعة",
+    "NameEn": "Group"
+  },
+  {
+    "Id": "3",
+    "NameAr": "أفراد معينين",
+    "NameEn": "Specific Individuals"
+  }
+]

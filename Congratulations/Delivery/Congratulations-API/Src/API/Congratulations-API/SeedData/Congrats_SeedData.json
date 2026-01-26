@@ -1,0 +1,31 @@
+[
+
+  {
+    "Id": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf717",
+    "TemplateId": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf773",
+
+    "SendDate": "2025-07-04T14:00:00",
+    "EndDate": "2026-07-10T14:00:00",
+    "IsStopped": false,
+    "LK_SendToId": 1
+  },
+  {
+    "Id": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf777",
+    "TemplateId": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf773",
+
+    "SendDate": "2025-07-04T14:00:00",
+    "EndDate": "2026-07-10T14:00:00",
+    "IsStopped": false,
+    "LK_SendToId": 2
+  },
+
+  {
+    "Id": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf727",
+    "TemplateId": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf773",
+
+    "SendDate": "2025-07-04T14:00:00",
+    "EndDate": "2026-07-10T14:00:00",
+    "IsStopped": false,
+    "LK_SendToId": 3
+  }
+]
