@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.CategoryFeature.Command.Post
 {
-    public class PostSendToCommand
+    public class PostSendToCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("PostSendToCommand dummy execution.");
-        }
+       public PostSendToDto postSendToDto {  get; set; }    
     }
 }

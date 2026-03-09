@@ -1,11 +1,9 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+namespace _4EPlatform.Application.Feature.GroupFeature.Query.GetAll
 {
-    public class GetAllGroupsQuery
+    public class GetAllGroupsQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetAllGroupsQuery dummy execution.");
-        }
+        public int PageSize { get; set; }
+        public int PageIndex { get; set; }
     }
 }

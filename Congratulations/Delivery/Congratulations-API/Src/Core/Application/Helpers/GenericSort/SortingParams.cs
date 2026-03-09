@@ -1,11 +1,8 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace Congrats.Application.Helpers.GenericSort
 {
     public class SortingParams
     {
-        public void Execute()
-        {
-            Console.WriteLine("SortingParams dummy execution.");
-        }
+        public SortOrders SortOrder { get; set; } = SortOrders.Asc;
+        public string ColumnName { get; set; }
     }
 }

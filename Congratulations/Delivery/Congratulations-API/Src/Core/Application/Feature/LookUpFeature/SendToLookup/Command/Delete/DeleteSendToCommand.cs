@@ -1,11 +1,5 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.CategoryFeature.Command.Delete
 {
-    public class DeleteSendToCommand
-    {
-        public void Execute()
-        {
-            Console.WriteLine("DeleteSendToCommand dummy execution.");
-        }
-    }
+    public record DeleteSendToCommand(int Id) : IRequest<ResponseDTO>;
+
 }

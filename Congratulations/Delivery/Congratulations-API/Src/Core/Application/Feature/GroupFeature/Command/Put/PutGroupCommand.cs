@@ -1,11 +1,10 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Feature.GroupFeature.Command.Put
 {
-    public class PutGroupCommand
+    public class PutGroupCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("PutGroupCommand dummy execution.");
-        }
+        public required PutGroupDto putGroupDto { get; set; }
     }
+
 }

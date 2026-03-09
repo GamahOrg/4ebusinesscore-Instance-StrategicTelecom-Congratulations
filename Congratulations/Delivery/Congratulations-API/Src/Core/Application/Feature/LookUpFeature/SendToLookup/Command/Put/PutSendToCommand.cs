@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.CategoryFeature.Command.Put
 {
-    public class PutSendToCommand
+    public class PutSendToCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("PutSendToCommand dummy execution.");
-        }
+        public PutSendToDto putSendToDto { get; set; }
     }
 }

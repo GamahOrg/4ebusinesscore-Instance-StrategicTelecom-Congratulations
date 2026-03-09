@@ -1,11 +1,14 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+
+namespace _4EPlatform.Application.Mapping
 {
-    public class CongratsMapper
+    public partial class MappingProfile
     {
-        public void Execute()
+        public void CongratsMapper()
         {
-            Console.WriteLine("CongratsMapper dummy execution.");
+            CreateMap<PostCongratsDto, Domain.Models.Congrats>();
+            CreateMap<PutCongratsDto, Domain.Models.Congrats>();
         }
     }
 }

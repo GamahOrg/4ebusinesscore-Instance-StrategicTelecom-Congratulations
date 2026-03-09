@@ -47,17 +47,11 @@
     <PackageReference Include="PDFsharp" Version="6.2.2" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\Application\Application.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="MicroBlocks.App">
       <HintPath>..\..\Core\Domain\Utilities\bins\MicroBlocks.App.dll</HintPath>
-    </Reference>
-    <Reference Include="MicroBlocks.Application">
-      <HintPath>..\..\Core\Domain\Utilities\bins\MicroBlocks.Application.dll</HintPath>
-    </Reference>
-    <Reference Include="MicroBlocks.Domain">
-      <HintPath>..\..\Core\Domain\Utilities\bins\MicroBlocks.Domain.dll</HintPath>
-    </Reference>
-    <Reference Include="MicroBlocks.Infrastructure">
-      <HintPath>..\..\Core\Domain\Utilities\bins\MicroBlocks.Infrastructure.dll</HintPath>
     </Reference>
   </ItemGroup>
   

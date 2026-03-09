@@ -1,11 +1,5 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.CategoryFeature.Query.GetAll
 {
-    public class GetAllSendToQuery
-    {
-        public void Execute()
-        {
-            Console.WriteLine("GetAllSendToQuery dummy execution.");
-        }
-    }
+    public record GetAllSendToQuery : IRequest<ResponseDTO>;
+
 }

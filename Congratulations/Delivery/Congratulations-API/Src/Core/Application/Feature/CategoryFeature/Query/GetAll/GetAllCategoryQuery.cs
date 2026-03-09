@@ -1,11 +1,5 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.CategoryFeature.Query.GetAll
 {
-    public class GetAllCategoryQuery
-    {
-        public void Execute()
-        {
-            Console.WriteLine("GetAllCategoryQuery dummy execution.");
-        }
-    }
+    public record GetAllCategoryQuery(bool? MyCongrats, string? Search, int PageSize, int PageNumber , Guid? CategoryId) : IRequest<ResponseDTO>;
+
 }

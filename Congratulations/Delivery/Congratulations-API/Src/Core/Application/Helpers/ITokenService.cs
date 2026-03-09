@@ -1,11 +1,11 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace Congrats.Application.Helpers
 {
-    public class ITokenService
+    public interface ITokenService
     {
-        public void Execute()
-        {
-            Console.WriteLine("ITokenService dummy execution.");
-        }
+        Task<CallOptions> AcquireToken();
+        Task<CallOptions> GetAccessTokenAsync();
+
+
+
     }
 }

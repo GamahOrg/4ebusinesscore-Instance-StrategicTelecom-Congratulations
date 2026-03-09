@@ -1,11 +1,8 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace Congrats.Application.Helpers.GenericSort.Enums
 {
-    public class SortOrders
+    public enum SortOrders
     {
-        public void Execute()
-        {
-            Console.WriteLine("SortOrders dummy execution.");
-        }
+        Asc = 1,
+        Desc = 2
     }
 }

@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.TemplateFeature.Command.Delete
 {
-    public class DeleteTemplateCommand
+    public class DeleteTemplateCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("DeleteTemplateCommand dummy execution.");
-        }
+        public Guid Id { get; set; }
     }
 }

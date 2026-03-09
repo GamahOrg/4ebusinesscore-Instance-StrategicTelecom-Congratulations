@@ -1,11 +1,28 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace Challenges.Domain.CustomValidation
 {
-    public class PreventInjectionHTMLAttribute
+    public class PreventInjectionHTMLAttribute : ValidationAttribute
     {
-        public void Execute()
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            Console.WriteLine("PreventInjectionHTMLAttribute dummy execution.");
+            //if (value == null)
+            //{
+            //    return ValidationResult.Success;
+            //}
+
+            //string input = value.ToString();
+
+
+            //string sanitizedInput = Regex.Replace(input, "<.*?>", string.Empty);
+
+            //// If the sanitized input differs from the original, you can optionally return a validation failure or adjust the model value here.
+            //if (!input.Equals(sanitizedInput))
+            //{
+            //    return new ValidationResult("Input contains HTML or script tags.");
+            //}
+
+            return ValidationResult.Success;
         }
     }
 }

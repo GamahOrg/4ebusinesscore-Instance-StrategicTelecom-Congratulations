@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.SubCategoryFeature.Command.Post
 {
-    public class PostSubCategoryCommand
+    public class PostSubCategoryCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("PostSubCategoryCommand dummy execution.");
-        }
+        public PostSubCategoryDto postSubCategoryDto { get; set; }
     }
 }

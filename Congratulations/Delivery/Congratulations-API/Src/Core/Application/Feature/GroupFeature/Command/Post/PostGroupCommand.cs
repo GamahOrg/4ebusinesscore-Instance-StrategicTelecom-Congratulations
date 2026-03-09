@@ -1,11 +1,9 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Feature.GroupFeature.Command.Post
 {
-    public class PostGroupCommand
+    public class PostGroupCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("PostGroupCommand dummy execution.");
-        }
+        public required PostGroupDto postGroupDto { get; set; }
     }
 }

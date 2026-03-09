@@ -1,11 +1,17 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.SubCategoryFeature.Command.Put
 {
-    public class PutSubCategoryDto
+    public record PutSubCategoryDto
     {
-        public void Execute()
-        {
-            Console.WriteLine("PutSubCategoryDto dummy execution.");
-        }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public string NameAr { get; init; }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public string NameEn { get; init; }
+        public string DescriptionEn { get; init; }
+        public string DescriptionAr { get; init; }
+        public Guid CategoryId { get; init; }
     }
 }

@@ -1,11 +1,42 @@
-// Auto-generated dummy class
-namespace DummyNamespace
-{
-    public class GlobalUsing
-    {
-        public void Execute()
-        {
-            Console.WriteLine("GlobalUsing dummy execution.");
-        }
-    }
-}
+﻿global using _4EPlatform.Application.Feature.CategoryFeature.Command.Post;
+global using _4EPlatform.Application.Feature.CategoryFeature.Command.Put;
+global using _4EPlatform.Application.Feature.CongratsFeature.Command.Post;
+global using _4EPlatform.Application.Feature.CongratsFeature.Command.Put;
+global using _4EPlatform.Application.Feature.GroupFeature.Command.Post;
+global using _4EPlatform.Application.Feature.GroupFeature.Query.GetAll;
+global using _4EPlatform.Application.Feature.GroupFeature.Query.GetById;
+global using _4EPlatform.Application.Feature.SubCategoryFeature.Command.Put;
+global using _4EPlatform.Application.Protos;
+global using _4EPlatform.Application.Resources;
+global using _4EPlatform.Application.Validation.CategoryValidation;
+global using _4EPlatform.Application.Validation.CongratsValidation;
+global using _4EPlatform.Application.Validation.GroupsValidation;
+global using _4EPlatform.Application.Validation.LookUpValidation;
+global using _4EPlatform.Application.Validation.SubCategory;
+global using _4EPlatform.Domain.Models;
+global using _4EPlatform.Domain.Utilities.Enums;
+global using _4EPlatForm.Infrastructure.Extensions;
+global using _4EPlatForm.Infrastructure.Interface;
+global using _4EPlatForm.Infrastructure.UnitOfWork;
+global using AutoMapper;
+global using Challenges.Domain.CustomValidation;
+global using Congrats.Application.Helpers.GenericSort;
+global using Congrats.Application.Helpers.GenericSort.Enums;
+global using Congrats.Application.Helpers.UploadHelper.Helpers;
+global using Diagnostics.Tracing.StackSources;
+global using DTO;
+global using FluentValidation;
+global using Grpc.Core;
+global using MediatR;
+global using Microsoft.AspNetCore.Hosting;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Localization;
+global using System.Collections;
+global using System.ComponentModel.DataAnnotations;
+global using System.Globalization;
+global using System.Linq.Expressions;
+global using System.Reflection;
+global using System.Text.Json;
+global using System.Text.RegularExpressions;

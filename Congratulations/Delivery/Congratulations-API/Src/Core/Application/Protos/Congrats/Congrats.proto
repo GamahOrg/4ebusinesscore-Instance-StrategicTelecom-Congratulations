@@ -1,1 +1,119 @@
-// Dummy placeholder file
+﻿syntax = "proto3";
+option csharp_namespace = "_4EPlatform.Application.Protos";
+import "google/protobuf/wrappers.proto";
+
+service CongratsProtoService {
+	rpc GetGrouById(GetCongratByIdRequest) returns (GetCongratByIdResponse);
+	rpc GetAllCongrats(GetAllCongratsRequest) returns (GetAllCongratsResponse);	
+	rpc GetAllMyCongrats(GetAllMyCongratsRequest) returns (GetAllMyCongratsResponse);
+}
+message  GetCongratByIdRequest
+{
+	google.protobuf.StringValue Id = 1;
+}
+
+message GetCongratByIdResponse 
+{
+	CongratProtoModel CongratProtoModel =1;
+	google.protobuf.StringValue Message = 2;
+	int32 StatusEnum = 3;
+}
+
+message CongratProtoModel 
+{
+	google.protobuf.StringValue Id = 1;
+	google.protobuf.StringValue CategoryNameAr = 2;
+	google.protobuf.StringValue CategoryNameEn = 3;
+	google.protobuf.StringValue SubCategoryNameAr = 4;
+	google.protobuf.StringValue SubCategoryNameEn = 5;
+	TemplateProtoModels TemplateProtoModels = 6;
+	google.protobuf.StringValue SendDate = 7;
+	google.protobuf.StringValue EndDate = 8;
+	int32 Lk_SendTo = 9;
+	google.protobuf.StringValue NameArLk_SendTo = 10;
+	google.protobuf.StringValue NameEnLk_SendTo = 11;
+	repeated google.protobuf.StringValue UserIds =12;
+	repeated google.protobuf.StringValue OrgIds =13;
+	repeated GroupProtoModelCongrat GroupProtoModels = 14;
+	int32 CongratStatus = 15;
+	bool IsStopped = 16;
+	google.protobuf.StringValue CategoryID = 17;
+	google.protobuf.StringValue SubCategoryID = 18;
+    repeated google.protobuf.StringValue GroupIds =19;
+       
+	
+}
+
+message TemplateProtoModels 
+{
+	google.protobuf.StringValue Id = 1;
+	google.protobuf.StringValue Name = 2;
+	google.protobuf.StringValue Description = 3;
+	google.protobuf.StringValue FontFamily = 4;
+	google.protobuf.StringValue FontType = 5;
+	google.protobuf.StringValue FontColor = 6;
+	int32 FontSize = 7;
+	google.protobuf.StringValue ImageName = 8;
+	google.protobuf.StringValue ImageUrl = 9;
+	bool Job = 10;
+	google.protobuf.StringValue UserName = 11;
+	google.protobuf.StringValue CategoryID = 12;
+	google.protobuf.StringValue CategoryNameAr = 13;
+	google.protobuf.StringValue CategoryNameEn = 14;
+	google.protobuf.StringValue SubCategoryId = 15;
+	google.protobuf.StringValue SubCategoryNameAr = 16;
+	google.protobuf.StringValue SubCategoryNameEn = 17;
+	google.protobuf.StringValue JobName = 18;
+	google.protobuf.StringValue text = 19;
+
+}
+message GroupProtoModelCongrat {
+	google.protobuf.StringValue GroupsIds = 1;
+	google.protobuf.StringValue GroupNameAr = 2;
+	google.protobuf.StringValue GroupNameEn = 3;
+    repeated google.protobuf.StringValue UserIds = 4;
+
+}
+
+message GetAllCongratsRequest{
+	int32 PageNumber =1;
+	int32 PageSize =2;
+    string Search =3;
+	int32 Lk_SendTo = 4;
+	int32 CongratStatus = 5;
+	string SendDate = 6;
+	string EndDate = 7;
+	string SubCategoryId=8;
+	google.protobuf.StringValue CategoryId=9;
+}
+
+message GetAllCongratsResponse{
+	repeated CongratProtoModel CongratProtoModel = 1;
+    int32 PageNumber=2;
+    int32 PageSize=3;
+    int32 TotalItems = 4;
+    int32 TotalPages=5;
+    int32 StatusEnum =6;
+    string Message=7;
+}
+
+message GetAllMyCongratsRequest{
+	int32 PageNumber =1;
+	int32 PageSize =2;
+    string Search =3;
+	string SubCategoryId = 5 ;
+}
+message MyCongratProtoModel 
+{
+	google.protobuf.StringValue Id = 1;
+	TemplateProtoModels TemplateProtoModels = 2;
+}
+message GetAllMyCongratsResponse{
+	repeated MyCongratProtoModel MyCongratProtoModels = 1;
+	int32 PageNumber=2;
+    int32 PageSize=3;
+    int32 TotalItems = 4;
+    int32 TotalPages=5;
+    int32 StatusEnum =6;
+    string Message=7;
+}
