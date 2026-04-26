@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Rega.Qimah.PermessionGroup" Version="1.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
   <ItemGroup>
@@ -48,11 +49,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Core\Application\Application.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="MicroBlocks.App">
-      <HintPath>..\..\Core\Domain\Utilities\bins\MicroBlocks.App.dll</HintPath>
-    </Reference>
   </ItemGroup>
   
   <ItemGroup>

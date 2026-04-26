@@ -1,5 +1,3 @@
-using _4EPlatform.PermissionsGroupingChecker;
-using _4EPlatform.PremessionRegister;
 using _4EPlatForm.Infrastructure.Context;
 using _4EPlatform_StrategicTelecom_Medals_Api.GrpClientsConfig;
 using Congrats.API.Extension;
@@ -9,6 +7,7 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Options;
 using Microsoft.Net.Http.Headers;
 using Microsoft.OpenApi.Models;
+using Rega.Qimah.PermessionGroup;
 using Serilog;
 using Serilog.Sinks.Elasticsearch;
 using System.Net;
