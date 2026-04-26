@@ -1,11 +1,19 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Resources
 {
     public class LocService
     {
-        public void Execute()
+        private readonly IStringLocalizer _localizer;
+
+        public LocService(IStringLocalizerFactory factory)
         {
-            Console.WriteLine("LocService dummy execution.");
+            var type = typeof(SharedResource);
+            var assemblyName = new AssemblyName(type.GetTypeInfo().Assembly.FullName);
+            _localizer = factory.Create("SharedResource", assemblyName.Name);
+        }
+
+        public LocalizedString GetLocalizedHtmlString(string key)
+        {
+            return _localizer[key];
         }
     }
 }

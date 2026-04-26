@@ -1,1 +1,54 @@
-// Dummy placeholder file
+syntax = "proto3";
+option csharp_namespace = "_4EPlatform.Application.Protos";
+import "google/protobuf/wrappers.proto";
+
+service GroupProtoService 
+{
+	rpc GetGrouById(GetGrouByIdRequest) returns (GetGrouByIdResponse);
+	rpc GetAllGroups(GetAllGroupsRequest) returns (GetAllGroupsResponse);
+}
+
+message  GetGrouByIdRequest
+{
+	google.protobuf.StringValue Id = 1;
+}
+
+message GetGrouByIdResponse 
+{
+	GroupProtoModel GroupProtoModel =1;
+}
+
+message GroupProtoModel 
+{
+	google.protobuf.StringValue Id = 1;
+	google.protobuf.StringValue NameAr = 2;
+	google.protobuf.StringValue NameEn = 3;
+	repeated EmployeesProtoModels EmployeesProtoModels =4;
+}
+message EmployeesProtoModels 
+{
+	google.protobuf.StringValue UserId = 1;
+}
+
+message GetAllGroupsRequest 
+{
+	int32 PageSize =1;
+	int32 PageIndex =2;
+}
+message GetAllGroupsResponse 
+{
+	repeated GetAllGroupsProtoModel GetAllGroupsProtoModel=1;
+	int32 PageIndex = 2;
+	int32 PageSize = 3;
+	int32 TotalPage = 4;
+	int32 TotalItems = 5;
+	int32 StatusEnum = 6;
+}
+message GetAllGroupsProtoModel 
+{
+	google.protobuf.StringValue Id = 1;
+	google.protobuf.StringValue NameAr = 2;
+	google.protobuf.StringValue NameEn = 3;
+	repeated EmployeesProtoModels EmployeesProtoModels =4;
+	int32 CountOfEmployees =5;
+}

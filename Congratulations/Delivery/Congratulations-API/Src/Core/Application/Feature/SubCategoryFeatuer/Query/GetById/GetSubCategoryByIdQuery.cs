@@ -1,11 +1,8 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.SubCategoryFeature.Query.GetById
 {
-    public class GetSubCategoryByIdQuery
+    public class GetSubCategoryByIdQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetSubCategoryByIdQuery dummy execution.");
-        }
+        public Guid Id { get; set; }
+        public GetSubCategoryByIdDto GetSubCategoryByIdDto { get; set; }
     }
 }

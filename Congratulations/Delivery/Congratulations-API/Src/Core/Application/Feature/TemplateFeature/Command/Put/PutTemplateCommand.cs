@@ -1,11 +1,8 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.TemplateFeature.Command.Put
 {
-    public class PutTemplateCommand
+    public class PutTemplateCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("PutTemplateCommand dummy execution.");
-        }
+        public Guid Id { get; set; }
+        public PutTemplateDto PutTemplateDto { get; set; }
     }
 }

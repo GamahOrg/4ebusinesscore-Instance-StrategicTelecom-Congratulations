@@ -1,11 +1,5 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.CategoryFeature.Query.GetById
 {
-    public class GetSentToByIdDTO
-    {
-        public void Execute()
-        {
-            Console.WriteLine("GetSentToByIdDTO dummy execution.");
-        }
-    }
+    public record GetSentToByIdDTO(string NameAr, string NameEn);
+
 }

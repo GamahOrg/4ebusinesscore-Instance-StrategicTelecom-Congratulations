@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.TemplateFeature.Query.GetByTemplateId
 {
-    public class GetByTemplateIdQuery
+    public class GetByTemplateIdQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetByTemplateIdQuery dummy execution.");
-        }
+        public Guid Id { get; set; }
     }
 }

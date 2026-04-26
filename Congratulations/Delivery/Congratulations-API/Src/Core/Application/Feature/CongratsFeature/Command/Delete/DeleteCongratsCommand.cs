@@ -1,11 +1,9 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Feature.CongratsFeature.Command.Delete
 {
-    public class DeleteCongratsCommand
+    public class DeleteCongratsCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("DeleteCongratsCommand dummy execution.");
-        }
+        public Guid Id { get; set; }
     }
 }

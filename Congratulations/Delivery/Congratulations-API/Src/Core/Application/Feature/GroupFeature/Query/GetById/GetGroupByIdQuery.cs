@@ -1,11 +1,9 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Feature.GroupFeature.Query.GetById
 {
-    public class GetGroupByIdQuery
+    public class GetGroupByIdQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetGroupByIdQuery dummy execution.");
-        }
+        public Guid Id { get; set; }
     }
 }

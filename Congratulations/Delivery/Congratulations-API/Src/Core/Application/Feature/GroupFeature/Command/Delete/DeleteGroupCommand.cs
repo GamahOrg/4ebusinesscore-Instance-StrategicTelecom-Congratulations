@@ -1,11 +1,9 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Feature.GroupFeature.Command.Delete
 {
-    public class DeleteGroupCommand
+    public class DeleteGroupCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("DeleteGroupCommand dummy execution.");
-        }
+        public Guid Id { get; set; }
     }
 }

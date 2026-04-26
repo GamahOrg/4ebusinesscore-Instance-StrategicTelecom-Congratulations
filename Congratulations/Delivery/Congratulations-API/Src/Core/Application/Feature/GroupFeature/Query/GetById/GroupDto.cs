@@ -1,11 +1,6 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Feature.GroupFeature.Query.GetById
 {
-    public class GroupDto
-    {
-        public void Execute()
-        {
-            Console.WriteLine("GroupDto dummy execution.");
-        }
-    }
+    public record GroupDto ( Guid Id,string NameAr , string NameEn , List<Guid> Employees );
 }

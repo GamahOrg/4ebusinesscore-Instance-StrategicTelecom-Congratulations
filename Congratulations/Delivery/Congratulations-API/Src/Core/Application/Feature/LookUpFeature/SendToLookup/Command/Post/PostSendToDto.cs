@@ -1,11 +1,14 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.CategoryFeature.Command.Post
 {
-    public class PostSendToDto
+    public record PostSendToDto
     {
-        public void Execute()
-        {
-            Console.WriteLine("PostSendToDto dummy execution.");
-        }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public string NameAr { get; set; }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public string NameEn { get; set; }
     }
 }

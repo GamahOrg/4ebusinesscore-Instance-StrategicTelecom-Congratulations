@@ -1,11 +1,12 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Feature.CongratsFeature.Command.Put
 {
-    public class PutCongratsCommand
+    public class PutCongratsCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("PutCongratsCommand dummy execution.");
-        }
+
+        public required PutCongratsDto putCongratsDto { get; set; }
     }
+
+
 }

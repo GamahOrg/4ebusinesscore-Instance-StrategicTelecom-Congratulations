@@ -1,11 +1,12 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MicroBlocks.Application
 {
-    public class ApplicationLayer
+    public abstract class ApplicationLayer
     {
-        public void Execute()
-        {
-            Console.WriteLine("ApplicationLayer dummy execution.");
-        }
     }
 }

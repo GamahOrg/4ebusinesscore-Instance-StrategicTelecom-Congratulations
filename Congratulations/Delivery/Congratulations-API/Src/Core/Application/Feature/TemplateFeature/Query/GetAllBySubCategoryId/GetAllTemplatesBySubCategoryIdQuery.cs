@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Feature.TemplateFeature.Query.GetAllBySubCategoryId
 {
-    public class GetAllTemplatesBySubCategoryIdQuery
+    public record GetAllTemplatesBySubCategoryIdQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetAllTemplatesBySubCategoryIdQuery dummy execution.");
-        }
+        public Guid SubCategoryId { get; set; }
     }
 }

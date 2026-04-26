@@ -1,11 +1,9 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Resources
 {
     public class SharedResource
     {
-        public void Execute()
-        {
-            Console.WriteLine("SharedResource dummy execution.");
-        }
+
     }
 }

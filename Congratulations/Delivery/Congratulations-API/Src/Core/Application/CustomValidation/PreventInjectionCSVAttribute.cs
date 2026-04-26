@@ -1,11 +1,22 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace Challenges.Domain.CustomValidation
 {
-    public class PreventInjectionCSVAttribute
+    public class PreventInjectionCSVAttribute : ValidationAttribute
     {
-        public void Execute()
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            Console.WriteLine("PreventInjectionCSVAttribute dummy execution.");
+            //if (value == null)
+            //{
+            //    return ValidationResult.Success;
+            //}
+
+            //string input = value.ToString();
+            //string pattern = "[@\\-\\+=]";
+            //if (Regex.IsMatch(input, pattern))
+            //{
+            //    return new ValidationResult("Input contains CSV tags.");
+            //}
+
+            return ValidationResult.Success;
         }
     }
 }

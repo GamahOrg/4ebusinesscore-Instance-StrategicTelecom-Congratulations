@@ -1,1 +1,254 @@
-// Dummy placeholder file
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddSuccessfully" xml:space="preserve">
+    <value>Add Successfully</value>
+  </data>
+  <data name="AlreadyIsExist" xml:space="preserve">
+    <value>Already Is Exist</value>
+  </data>
+  <data name="DeleteSuccessfully" xml:space="preserve">
+    <value>Delete Successfully</value>
+  </data>
+  <data name="DescriptionArabicMustNotEmpty" xml:space="preserve">
+    <value>Description Arabic Must Not Empty</value>
+  </data>
+  <data name="DescriptionArabicNotNULL" xml:space="preserve">
+    <value>Description Arabic Not NULL</value>
+  </data>
+  <data name="DescriptionEnglishMustNotEmpty" xml:space="preserve">
+    <value>Description English Must Not Empty</value>
+  </data>
+  <data name="DescriptionEnglishNotNULL" xml:space="preserve">
+    <value>Description English Not NULL</value>
+  </data>
+  <data name="DescriptionInArabicMustBeWrittenInArabicAAndCanContainNumbers" xml:space="preserve">
+    <value>Description In Arabic Must Be Written In Arabic And Can Contain Numbers</value>
+  </data>
+  <data name="DescriptionInEnglishMustBeWrittenInEnglishAndCanContainNumbers" xml:space="preserve">
+    <value>Description In English Must Be Written In English And Can Contain Numbers</value>
+  </data>
+  <data name="FailedToSave" xml:space="preserve">
+    <value>Failed To Save</value>
+  </data>
+  <data name="ImageCanNotBeNull" xml:space="preserve">
+    <value>Image Can Not Be Null</value>
+  </data>
+  <data name="NameArabicNotNULL" xml:space="preserve">
+    <value>Name Arabic Not NULL</value>
+  </data>
+  <data name="NameInArabicMustBeWrittenInArabicAAndCanContainNumbers" xml:space="preserve">
+    <value>Name In Arabic MustBe Written In Arabic And Can Contain Numbers</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Not Found</value>
+    <comment>Not Found</comment>
+  </data>
+  <data name="OfferIsExpired" xml:space="preserve">
+    <value>Offer Is Expired</value>
+  </data>
+  <data name="PleaseSelectEmployees" xml:space="preserve">
+    <value>Please Select Employees</value>
+  </data>
+  <data name="RetrievedSuccessfully" xml:space="preserve">
+    <value>Retrieved Successfully</value>
+  </data>
+  <data name="StartDateMustBeEarlierThanEndDate" xml:space="preserve">
+    <value>StartDate Must Be Earlier Than EndDate</value>
+  </data>
+  <data name="SubcategoryNameArabicCannotBeNull" xml:space="preserve">
+    <value>Subcategory Name Arabic Cannot BeNull</value>
+  </data>
+  <data name="SubcategoryNameArabicMustNotBeEmpty" xml:space="preserve">
+    <value>Subcategory Name Arabic Must Not Be Empty</value>
+  </data>
+  <data name="SubcategoryNameEnglishCannotBeNull" xml:space="preserve">
+    <value>Subcategory Name English Cannot Be Null</value>
+  </data>
+  <data name="SubcategoryNameEnglishMustNotBeEmpty" xml:space="preserve">
+    <value>Subcategory Name English Must Not Be Empty</value>
+  </data>
+  <data name="SubcategoryNameInArabicMustBeWrittenInArabicAndCanContainNumbers" xml:space="preserve">
+    <value>Subcategory Name In Arabic Must Be Written In Arabic And Can Contain Numbers</value>
+  </data>
+  <data name="SubcategoryNameInEnglishMustBeWrittenInEnglishAndCanContainNumbers" xml:space="preserve">
+    <value>Subcategory Name In English MustBe Written In English AndCan Contain Numbers</value>
+  </data>
+  <data name="SubCategoryNotFound" xml:space="preserve">
+    <value>Subcategory Not Found</value>
+  </data>
+  <data name="TheCombinationOfNameArAndNameEnMustBeUnique" xml:space="preserve">
+    <value>The Combination Of NameAr And NameEn Must Be Unique</value>
+  </data>
+  <data name="TheMainCategoryNotFound" xml:space="preserve">
+    <value>The Main Category Not Found</value>
+  </data>
+  <data name="TitleArabickMustNotEmpty" xml:space="preserve">
+    <value>Title Arabick Must Not Empty</value>
+  </data>
+  <data name="TitleArabickMustNotNull" xml:space="preserve">
+    <value>Title Arabic Must Not Null</value>
+  </data>
+  <data name="TitleArabicMustBeWrittenInArabic" xml:space="preserve">
+    <value>Title Arabic Must Be Written In Arabic</value>
+  </data>
+  <data name="TitleEnglishMustBeWrittenInEnglish" xml:space="preserve">
+    <value>Title English Must Be Written In English</value>
+  </data>
+  <data name="TitleEnglishMustNotEmpty" xml:space="preserve">
+    <value>Title English Must Not Empty</value>
+  </data>
+  <data name="TitleEnglishMustNotNull" xml:space="preserve">
+    <value>Title English Must No tNull</value>
+  </data>
+  <data name="UpdateSuccessfully" xml:space="preserve">
+    <value>Update Successfully</value>
+  </data>
+  <data name="HaveCongrats" xml:space="preserve">
+    <value>can not Delete part  contain congrate</value>
+    <comment>Have Congrats</comment>
+  </data>
+  <data name="EndTimeFormat" xml:space="preserve">
+    <value>End Time must be in HH:mm:ss format and within valid range (00:00:00 - 23:59:59).</value>
+  </data>
+  <data name="StartTimeFormat" xml:space="preserve">
+    <value>StartTime must be in HH:mm:ss format and within valid range (00:00:00 - 23:59:59).</value>
+  </data>
+  <data name="SendDateisrequired" xml:space="preserve">
+    <value>SendDate Is Required</value>
+  </data>
+  <data name="SendDatemustbegreatethanDateTimeNow" xml:space="preserve">
+    <value>SendDate must be greate than DateTimeNow</value>
+  </data>
+  <data name="SendDatemustbeearlierthanEndDate" xml:space="preserve">
+    <value>SendDate must be Earlier than EndDate</value>
+  </data>
+  <data name="Templateisrequired" xml:space="preserve">
+    <value>Template Is Required</value>
+  </data>
+  <data name="LK_SendToisrequired" xml:space="preserve">
+    <value>LK_SendTo Is Required</value>
+  </data>
+  <data name="AddedSuccessfully" xml:space="preserve">
+    <value>Added Successfully</value>
+  </data>
+  <data name="NameArabicMustNotEmpty" xml:space="preserve">
+    <value>Name Arabic Must Not Empty</value>
+  </data>
+</root>

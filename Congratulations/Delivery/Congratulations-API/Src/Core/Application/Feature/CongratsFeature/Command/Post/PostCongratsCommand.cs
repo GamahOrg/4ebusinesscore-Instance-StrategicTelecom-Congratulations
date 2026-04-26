@@ -1,11 +1,9 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Feature.CongratsFeature.Command.Post
 {
-    public class PostCongratsCommand
+    public class PostCongratsCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("PostCongratsCommand dummy execution.");
-        }
+        public required PostCongratsDto postCongratsDto { get; set; }
     }
 }

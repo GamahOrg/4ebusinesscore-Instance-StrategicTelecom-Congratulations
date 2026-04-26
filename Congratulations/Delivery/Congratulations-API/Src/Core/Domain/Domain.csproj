@@ -6,8 +6,5 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Utilities\bins\AppServer\empty_wwwroot\" />
-  </ItemGroup>
 
 </Project>

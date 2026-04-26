@@ -1,11 +1,17 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Feature.GroupFeature.Command.Post
 {
-    public class PostGroupDto
+    public record PostGroupDto
     {
-        public void Execute()
-        {
-            Console.WriteLine("PostGroupDto dummy execution.");
-        }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public required string NameAr { get; init; }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public required string NameEn { get; init; }
+        public required List<Guid> EmployeesGroupsIds { get; init; }
     }
 }

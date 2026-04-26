@@ -1,11 +1,19 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Feature.GroupFeature.Command.Put
 {
-    public class PutGroupDto
+    public record PutGroupDto
     {
-        public void Execute()
-        {
-            Console.WriteLine("PutGroupDto dummy execution.");
-        }
+        public Guid Id { get; init; }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public required string NameAr { get; init; }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public required string NameEn { get; init; }
+        public List<Guid>? EmployeesGroupsIds { get; init; }
     }
+
 }
